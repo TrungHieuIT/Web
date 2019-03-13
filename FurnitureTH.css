@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#06C;
+	}
+a {
+	color:#000;
+	text-decoration:none;
+	}
+h1 {
+	color:#03F;
+	font-sỉze:50px;
+	text-align:center;
+	margin:0;
+	}
+h2
+{
+	color:#C00;
+	font-sỉze:30px;
+	text-align:center;
+	margin:0;
+	
+	}
+span{
+	color:#FFF;
+	}
+h5{
+	color:#FC0;
+	}
+ul {
+	list-style-type:none;
+margin:0;
+padding:0;
+}
+/*header*/
+.header{
+	background-color:#CCC;}
+/*footer*/
+.footer {
+	    background:#03F;
+		width:auto;
+		overflow:hidden;
+		width:75%;
+		min-height:250px;
+		
+}
+/*div.container {
+	overflow:hidden;
+	}
+div.content {
+	overflow:hidden;
+	}
+	*/
+/*controls*/
+div.controls {
+	float:right;
+	}
+/*menu*/
+div.Menu{
+	float:left;
+	width:100%;
+	height:34px;
+	display:inline;
+	position:relative;
+	border-bottom:1px solid #fff;
+	}
+div.Menu ul{
+	margin:0 0 0 30px;
+	padding:0;
+	}
+div.Menu li{
+	border-radius:15px 0 15px 0;
+	background-color:#36F;
+	float:left;
+	position:relative;
+	margin:0 15px 0 0;
+	padding:0;
+}
+div.Menu li a {
+	display:block;
+	font-size:1.1em;
+	text-decoration:none;
+	padding:8px 15px 6px 15px;
+	height:20px;
+	}
+/*leftbar*/
+.leftbar {
+	position:absolute;
+	left:2px;
+	top :175px;
+	width:190px;
+	min-height:500px;
+	padding:5px 0 5px 0;
+	background-color:#0CF;
+	}
+/*centerbar*/
+.centerbar {
+	clear:both;
+	margin-bottom:10px;
+	background-color:#0FF;
+	}
+/*ProductList*/
+.ProductList {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+.ProductList li {
+	padding:5px 0 5px 6px;
+	list-style:none;
+	float:left;
+	font-size:1em;
+	text-align:center;
+	margin:6px 11px 10px 0;
+	overflow:hidden;
+	border:1px soild #dadada;
+	}
+.Odd {
+	width:130px;
+	height:211px;
+	}	
+.Even {
+	width:130px;
+	height:211px;
+	}
+/*rightbar*/
+.rightbar {
+	background-color:#9F0;
+	position:absolute;
+	right:5px;
+	top:175px;
+	width:170px;
+	min-height:500px;
+	padding:10px 0 10px 0;
+	}
